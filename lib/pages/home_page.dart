@@ -12,11 +12,7 @@ class HomePage extends StatelessWidget {
         title: Text("Catalog App"),
         centerTitle: true,
       ),
-      body: Center(
-        child: Container(
-          child: Text("Welcome to 30 days of Flutter"),
-        ),
-      ),
+      body: ListView.builder(itemCount: Catalogmodel.items,itemBuilder: ),
       drawer: MyDrawer(),
     );
   }
