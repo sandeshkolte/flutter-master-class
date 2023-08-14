@@ -14,12 +14,16 @@ class MyDrawer extends StatelessWidget {
           children: [
             DrawerHeader(
               child: UserAccountsDrawerHeader(
-                accountName: const Text("Sandesh Kolte"),
-                accountEmail: const Text("sandeshkolte11@gmail.com"),
+                accountName: const Text(
+                  "Sandesh Kolte",
+                  style: TextStyle(color: Colors.white, fontSize: 15),
+                ),
+                accountEmail: const Text("sandeshkolte11@gmail.com",
+                    style: TextStyle(color: Colors.white, fontSize: 15)),
                 currentAccountPicture:
                     CircleAvatar(backgroundImage: NetworkImage(imageUrl)),
                 decoration: BoxDecoration(
-                  color: Colors.deepPurple,
+                  color: Colors.deepPurple[400],
                   borderRadius: BorderRadius.circular(10),
                 ),
               ),
@@ -45,7 +49,6 @@ class MyDrawer extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
             ),
-            
           ],
         ),
       ),
