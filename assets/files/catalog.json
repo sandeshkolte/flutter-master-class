@@ -18,7 +18,7 @@
         },
         {
             "id": 3,
-            "name": "M1 Macbook Air",
+            "name": "Macbook Air M1",
             "desc": "Apple Macbook air with apple silicon",
             "price": 1099,
             "color": "#e0bfae",
@@ -30,16 +30,14 @@
             "desc": "Sony Playstation 5th generation",
             "price": 500,
             "color": "#544ee4",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMOMstwtmLnjFb3NHiDJ_kcQnueNVH-rv_3ps96HZmXlFumKWaiBqq_L4Uoyx3iFiNTrXNEbyB&usqp=CAc"
-        },
+"image":"https://images.stockx.com/images/Sony-PS5-Playstation-5-Blu-Ray-Edition-Console-White-V5.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1642201363"        },
         {
             "id": 5,
             "name": "Airpods Pro",
             "desc": "Apple Aipods Pro 1st generation",
             "price": 200,
             "color": "#e3e4e9",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQROEs084z65psoo06zYl5R0tUzywOVKVQZzmzqCj3PDP1vVJTWv3gGwGMFENSy4qV4n7sEQjE&usqp=CAc"
-        },
+"image":"https://datamation.in/wp-content/uploads/2021/06/Apple-AirPodsdatamation.jpg"        },
         {
             "id": 6,
             "name": "iPad Pro",
